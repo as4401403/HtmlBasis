@@ -1,6 +1,6 @@
 # HtmlBasis
 HTML基础，HTML表格，HTML表单，网页整体结构
-<!--
+~~~
 <!DOCTYPE html> 用于声明文档类型
 <head></head> 网页头部信息
 <title></title> 用于命名网页标题
@@ -38,4 +38,4 @@ HTML基础，HTML表格，HTML表单，网页整体结构
         &copy;      ©         版权标记
         &trade;     TM        商标标记
         &nbsp;      Space     不断行的空白
--->
+~~~
