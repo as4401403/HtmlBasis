@@ -1,6 +1,6 @@
 # HtmlBasis
 HTML基础，HTML表格，HTML表单，网页整体结构
-<!--
+~~~
 <!DOCTYPE html> 用于声明文档类型
 <head></head> 网页头部信息
 <title></title> 用于命名网页标题
@@ -38,4 +38,33 @@ HTML基础，HTML表格，HTML表单，网页整体结构
         &copy;      ©         版权标记
         &trade;     TM        商标标记
         &nbsp;      Space     不断行的空白
--->
+
+列表标签：
+        无序列表：<ul>
+                    <li>可以有多个li</li>
+                 </ul>
+        无序列表ul的type属性：
+                          值         描述
+                         disc       表示圆点,默认样式
+                         square     表示正方形
+                         circle     表示空心圆
+
+        有序列表：<ol>
+                    <li>可以有多个li</li>
+                 </ol>
+        有序列表ol的type属性：
+                            值       描述
+                            1       数字1，2，3，4...
+                            a       小写字母a，b，c...
+                            A       大写字母A, B, C...
+                            i       小写罗马数字i
+                            I       大写罗马数字I
+        定义列表：<dl>
+                    <dt>定义列表项</dt>
+                    <dd>列表项描述</dd>
+                    <dd>列表项描述</dd>
+                    <dt>定义列表项</dt>
+                    <dd>列表项描述</dd>
+                    <dd>列表项描述</dd>
+                 </dl>
+~~~
