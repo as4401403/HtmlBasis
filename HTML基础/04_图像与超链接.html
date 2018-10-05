@@ -1,0 +1,66 @@
+<!--图像与超链接
+
+图像标签：
+        <img src="" alt="" />
+        img标签属性：
+                    属性      值                   描述
+                    Src      URL              显示图像的URL
+                    alt      文字              图像替代文本
+                    height   数值和百分比       图像的高
+                    width    数值和百分比       图像的宽度
+
+超链接标签：
+           <a href="">内容</a>
+           href：链接地址，可以是内部链接或者是外部地址
+           target：链接的目标窗口（_self，_block，_top，_parent）
+           title：链接提示文字
+           name：链接命名
+           <a href="#"></a>标签的空链接，#号表示
+定义锚（同一页面）：
+       <a href="要跳转到的锚名称">内容</a>
+       <a name="锚名称">内容</a>
+
+定义锚（不同页面）：
+        网页1：<a href="页面链接#跳转的锚名">内容</a>
+        网页2：<a name="锚名称">内容</a>
+
+邮件链接：
+        <a href="mailto:邮件地址">内容</a>
+
+文件下载：
+        <a href="文件名">文件下载</a>
+
+
+
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>04_图像与超链接</title>
+</head>
+<body>
+    <a href="#name">博客</a>
+    <a href="#test">测试</a>
+    <h1 style="color:red;">04、图像与超链接：</h1>
+    <div>
+        <h5 style="color: #2c6613;">固定图片标签：</h5>
+        <img src="https://img.mukewang.com/5b31a0c60001d59009360316.jpg" alt="图片标签" height="200px" width="550px"/>
+    </div>
+
+    <div>
+        <h5 style="color: #2c6613;">缩放图片标签：</h5>
+        <img src="https://img.mukewang.com/5b31a0c60001d59009360316.jpg" alt="缩放图片" width="80%" height="80%">
+    </div>
+    <a href="01_基础语法.html">打开链接</a>
+    <a href="http://www.shujian.org" target="_blank" title="书剑的博客" name="name">打开我的博客</a>
+    <a name="test">测试</a>
+
+    <h1>不同页面的锚跳转</h1>
+    <a href="03_列表标签.html#name" target="_blank">跳转到name</a>
+    <a href="03_列表标签.html" target="_blank">正常跳转</a>
+
+    <h1>邮件链接：</h1>
+    <a href="mailto:shu@jian.org">联系邮箱</a>
+</body>
+</html>
